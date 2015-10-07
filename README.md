@@ -8,3 +8,7 @@ margins - push elements away from each other
 padding - creates space b/w elements within the content and the box
 
 em - height of current font
+
+relative intrapage hyperlinks with hashes
+
+rgba will help transparency rgba(0,0,0,transparency amount 0-1)
