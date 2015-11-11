@@ -1,0 +1,18 @@
+git checkout -b name of branch
+
+each person implements a feature
+git add .
+git commit -m "resolves #issuenum"
+
+each person feature branch to github and create pull request
+git push origin name of branch
+
+review features and merge into master
+pull features into your master and delete feature branch
+git checkout master
+git pull origin master
+git branch -d branch name
+
+one person add and push version tag
+git tag -a v1.0 -m "released version 1"
+git push origin master --tags
