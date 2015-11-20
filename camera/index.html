@@ -10,7 +10,35 @@
             <video autoplay></video>
         </p>
         <p>
+            <label for="line-color-inp">Line Color:</label>
+            <input type="color" name="line-color-inp" id="line-color-inp" value="#000000">
+        </p>
+        <p>
+            <label for="line-width">Line Width:</label>
+            <input type="number" name="line-width" id="line-width"/>
+        </p>
+        <p>
+            <label for="end-cap">Line End Cap:</label>
+            <select id="end-cap">
+                <option value="butt">Butt</option>
+                <option value="round">Round</option>
+                <option value="square">Square</option>
+            </select>
+        </p>
+        <p>
+            <label for="join-style">Line Join Style:</label>
+            <select id="join-style">
+                <option value="bevel">Bevel</option>
+                <option value="round">Round</option>
+                <option value="miter">Miter</option>
+            </select>
+        </p>
+        <p>
             <canvas></canvas>
+        </p>
+        <p>
+            <button id="btnSnapshot">Snapshot</button>
+            <img src="img/snapshot.svg" alt="snapshot of camera"/>
         </p>
 
         <script src="js/app.js"></script>    
